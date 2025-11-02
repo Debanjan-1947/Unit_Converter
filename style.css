@@ -1,0 +1,58 @@
+body {
+    text-align: center;
+    margin: 0px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.blue-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(132, 0, 255);
+    padding: 20px 50px;
+    color: aliceblue;
+}
+
+#values {
+    text-align: center;
+    width: 125px;
+    height: 100px;
+    background-color: rgb(132, 0, 255);
+    border: 1px solid aliceblue;
+    margin: 20px;
+    border-radius: 13px;
+    font-size: 4em;
+    color: aliceblue;
+}
+
+#conv-btn {
+    color: rgb(132, 0, 255);
+    font-weight: 600;
+    padding: 10px 20px;
+    background-color: aliceblue;
+    border: none;
+    border-radius: 13px;
+    /* box-sizing:content-box; */
+}
+
+.grey-cont {
+    background-color: gainsboro;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.white-cont {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    background-color: aliceblue;
+    width: 500px;
+    /* height: 200px; */
+    margin: 10px 50px;
+    border: none;
+    border-radius: 13px;
+}
